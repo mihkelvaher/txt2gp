@@ -1,0 +1,21 @@
+{
+  "name": "txt2gp",
+  "version": "1.0.0",
+  "description": "Gene Expression Analysis Single-Page App for qPCR data",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "watch": "node esbuild.config.mjs --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "gene-expression",
+    "qpcr",
+    "analysis"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "typescript": "^5.7.2"
+  }
+}
